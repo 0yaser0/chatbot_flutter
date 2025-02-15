@@ -5,9 +5,7 @@
             "questions": [
                 "salut",
                 "bonjour",
-                "bonsoir",
-                "coucou",
-                "hey"
+                "bonsoir"
             ],
             "responses": [
                 "Bonjour ! Comment puis-je vous aider ?",

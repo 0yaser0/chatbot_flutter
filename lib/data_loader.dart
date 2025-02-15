@@ -12,12 +12,13 @@ class ChatbotData {
 
   String getResponse(String userMessage) {
     for (var intent in intents) {
-      for (var question in intent["questions"]) {
-        if (userMessage.toLowerCase() == question.toLowerCase()) {
-          return intent["responses"][0];
+      for (int i = 0; i < intent["questions"].length; i++) {
+        if (userMessage.toLowerCase() == intent["questions"][i].toLowerCase()) {
+          return intent["responses"][i]; 
         }
       }
     }
     return "Désolé, je n'ai pas compris votre question.";
   }
 }
+
