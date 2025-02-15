@@ -1,0 +1,70 @@
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "questions": [
+                "salut",
+                "bonjour",
+                "bonsoir",
+                "coucou",
+                "hey"
+            ],
+            "responses": [
+                "Bonjour ! Comment puis-je vous aider ?",
+                "Salut ! Que puis-je faire pour vous ?",
+                "Bonsoir ! Besoin d’un conseil médical ?"
+            ]
+        },
+        {
+            "intent": "disease_info",
+            "questions": [
+                "Quels sont les symptômes de la grippe?",
+                "Comment savoir si j'ai une allergie?",
+                "Quels sont les signes du diabète?",
+                "C'est quoi les symptômes d'une pneumonie?",
+                "Comment reconnaître une migraine?"
+            ],
+            "responses": [
+                "Les symptômes de la grippe incluent fièvre, toux et fatigue.",
+                "L'allergie se manifeste par des éternuements et un nez qui coule.",
+                "Le diabète peut causer une soif excessive et une fatigue intense.",
+                "Une pneumonie entraîne souvent de la fièvre et une toux sévère.",
+                "Une migraine se caractérise par des maux de tête intenses."
+            ]
+        },
+        {
+            "intent": "prevention",
+            "questions": [
+                "Comment éviter la grippe?",
+                "Que faire pour prévenir le diabète?",
+                "Quels sont les moyens d'éviter une allergie?",
+                "Comment se protéger contre la pneumonie?",
+                "Y a-t-il un moyen d'éviter les migraines?"
+            ],
+            "responses": [
+                "Se laver les mains régulièrement réduit le risque de grippe.",
+                "Une alimentation saine et équilibrée est essentielle.",
+                "Éviter les allergènes connus est la meilleure prévention.",
+                "Se faire vacciner contre le pneumocoque peut protéger.",
+                "Identifier et éviter ses déclencheurs est la clé."
+            ]
+        },
+        {
+            "intent": "treatment",
+            "questions": [
+                "Quel est le traitement pour la grippe?",
+                "Comment soigner une allergie?",
+                "Y a-t-il un remède contre le diabète?",
+                "Que faire en cas de pneumonie?",
+                "Quels médicaments pour la migraine?"
+            ],
+            "responses": [
+                "Le repos et l’hydratation sont essentiels pour récupérer.",
+                "Les antihistaminiques aident à réduire les symptômes.",
+                "Le diabète se gère par une alimentation adaptée.",
+                "Un traitement antibiotique est souvent nécessaire.",
+                "Le paracétamol et l’ibuprofène soulagent la douleur."
+            ]
+        }
+    ]
+}
